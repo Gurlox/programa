@@ -1,0 +1,32 @@
+html {
+    font-size: 1.4em;
+    font-family: sans-serif;
+    background: #f7f7f7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 200vh;
+}
+
+main, .content {
+    height: inherit
+}
+
+#menu {
+    background: rgba(0,21,41,1);
+    height: 100%;
+}
+
+#form {
+    margin-top: 50px;
+}
+
+.spacer {
+    height: 20px;
+    width: 100%;
+}

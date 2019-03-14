@@ -1,0 +1,64 @@
+#cv {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.cv-header {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: rgba(0,21,41,1);
+    color: #ffffff;
+}
+
+.cv-header .name {
+    text-align: center;
+}
+
+.cv-header .contact-info {
+    margin-left: 20px;
+}
+
+.cv-header .contact-details {
+    font-size: 0.7em;
+}
+
+.cv-content {
+    padding: 0 40px;
+}
+
+#cv h5 {
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+#cv h4 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+#cv ul {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+#cv .no-padding {
+    padding-left: 20px;
+}
+
+#cv .subtitle {
+    font-size: 1em;
+    color: #6d757b;
+}
+
+#cv .text {
+    margin-left: 20px;
+}
+
+#cv .consent {
+    margin-top: 40px;
+    font-weight: bold;
+}
