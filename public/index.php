@@ -15,8 +15,9 @@
             <div id="menu" class="col-2">
 
             </div>
-            <div id="form" class="col-4">
-                <form>
+            <div id="formBody" class="col-4">
+                <form id="form">
+                    <ul id="formErrors"></ul>
                     <div class="form-group row">
                         <label for="name" class="col-sm-2 col-form-label">Imię</label>
                         <div class="col-10">
@@ -51,6 +52,7 @@
                             Wyrażam zgodę na przetwarzanie danych osobowych
                         </label>
                     </div>
+                    <button type="submit" class="btn btn-primary">Zapisz</button>
                 </form>
             </div>
             <div id="cv" class="col-6">
@@ -168,5 +170,6 @@
             </div>
         </div>
     </main>
+    <script type="text/javascript" src="/assets/js/formValidator.js"></script>
 </body>
 </html>

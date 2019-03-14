@@ -22,11 +22,15 @@ main, .content {
     height: 100%;
 }
 
-#form {
+#formBody {
     margin-top: 50px;
 }
 
 .spacer {
     height: 20px;
     width: 100%;
+}
+
+#formErrors {
+    color: darkred;
 }
