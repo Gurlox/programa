@@ -34,3 +34,7 @@ main, .content {
 #formErrors {
     color: darkred;
 }
+
+#menu ul {
+    color: #ffffff;
+}

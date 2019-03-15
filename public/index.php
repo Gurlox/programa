@@ -1,3 +1,4 @@
+<?php include('../src/base.php'); ?>
 <!doctype html>
 <html lang="pl">
 <head>
@@ -13,7 +14,9 @@
     <main>
         <div class="row content">
             <div id="menu" class="col-2">
-
+                <?php
+                    echo (new Menu())->render();
+                ?>
             </div>
             <div id="formBody" class="col-4">
                 <form id="form">
