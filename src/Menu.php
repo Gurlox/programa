@@ -1,5 +1,7 @@
 <?php
 
+use Engine\Database;
+
 class Menu
 {
     final public function render(int $parentId = null, string $html = ''): string

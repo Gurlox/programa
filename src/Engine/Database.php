@@ -1,5 +1,7 @@
 <?php
 
+namespace Engine;
+
 class Database
 {
     private static $instance;
@@ -26,7 +28,7 @@ class Database
 
         $connectionString = "mysql:host=$host;dbname=$database;charset=utf8";
         try {
-            self::$connection = new PDO($connectionString, $user, $password);
+            self::$connection = new \PDO($connectionString, $user, $password);
         } catch (\PDOException $e) {
             throw new \PDOException($e->getMessage(), (int)$e->getCode());
         }
@@ -36,6 +38,6 @@ class Database
     {
         $stmt = self::$connection->prepare($query);
         $stmt->execute($params);
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
 }

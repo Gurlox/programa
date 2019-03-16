@@ -1,4 +1,4 @@
-<?php include('../src/base.php'); ?>
+<?php include('../bootstrap.php'); ?>
 <!doctype html>
 <html lang="pl">
 <head>
